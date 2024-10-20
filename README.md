@@ -2,6 +2,14 @@
 
 Queue Bot is a Twitch chat bot designed to manage a user queue for various activities. The bot allows users to join and leave the queue and provides commands for moderators to manage user interactions effectively.
 
+## Requirements
+
+- **Node.js**: The bot requires Node.js version 14 or higher.
+- **npm**: Node Package Manager, usually installed with Node.js.
+- **Twitch Account**: A Twitch account to create a bot user.
+- **OAuth Token**: An OAuth token for the bot user to connect to Twitch chat. You can generate one from the [Twitch Token Generator](https://twitchtokengenerator.com/).
+- **blacklist.json**: A JSON file to manage blacklisted users (created automatically when running the bot).
+
 ## Features
 
 - Users can join and leave a queue with commands.
@@ -31,19 +39,23 @@ Queue Bot is a Twitch chat bot designed to manage a user queue for various activ
    cd QueueBot
    ```
 
-2. Install the depencies:
+2. Initilaze the file.
+  ```bash
+  npm init -y
+  ```
+
+3. Install the depencies:
    ```bash
    npm install
    ```
 
-3. Create a blacklist.json with the following content:
+4. Create a blacklist.json with the following array content:
   ```json
   []
   ```
 
-4. Update the bots credentials in the code.
+5. Update the bots credentials in the code.
 Change the username and password in the opts object in index.js to your bot's Twitch account credentials.
-You can use https://twitchtokengenerator.com to get your oauth code.
 
 # Usage
 1. Start the bot.
