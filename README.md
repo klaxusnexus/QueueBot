@@ -1,6 +1,6 @@
 # QueueBot
 
-Queue Bot is a Twitch chat bot designed to manage a user queue for various activities. The bot allows users to join and leave the queue and provides commands for moderators to manage user interactions effectively.
+Queue Bot is a Twitch chat bot designed to manage a user queue for various activities, Often used on the [725xoxo Twitch Channel](https://twitch.tv725xoxo). The bot allows users to join and leave the queue and provides commands for moderators to manage user interactions effectively.
 
 ## Requirements
 
