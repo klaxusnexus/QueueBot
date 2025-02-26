@@ -151,8 +151,7 @@ client.on('message', (channel, tags, message, self) => {
         }
 
         else if (command === '!qcreator') {
-            const creatorName = 'klaxusnexus';
-            client.say(channel, `The person who made this bot is ${creatorName}!`);
+            client.say(channel, `The person who made this bot is entangld!`);
         }
     } catch (error) {
         console.error('An error occurred:', error);
